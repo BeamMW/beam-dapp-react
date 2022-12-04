@@ -23,7 +23,7 @@ const trackStyle = css`
 const routes = [
   {
     path: '/',
-    element: <></>,
+    element: <>hallo</>,
   },
   {
     path: `${ROUTES.MAIN.BASE}/*`,
@@ -43,7 +43,7 @@ const App = () => {
       dispatch(sharedActions.navigate(''));
     }
   }, [navigateURL, dispatch, navigate]);
-  
+
   return (
     <Scrollbars
         renderThumbVertical={(props) => <div {...props} className={trackStyle} />}

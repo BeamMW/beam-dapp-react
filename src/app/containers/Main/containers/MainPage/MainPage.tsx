@@ -7,6 +7,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 50px 0;
+  color: white;
 `;
 
 const MainPage: React.FC = () => {
